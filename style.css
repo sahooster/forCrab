@@ -1,0 +1,289 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;600&display=swap');
+
+
+
+
+
+body{
+    font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
+}
+
+.navbar {
+    box-shadow: none;
+    padding-top:.5625rem
+   }
+
+.blueMain{
+    color: #0D3F6A;
+}
+
+.blueMainBg{
+    background-color: #0D3F6A;
+    opacity: 0.9;
+}
+
+.redMain{
+    color: #ED1B25;
+}
+
+.redMainbackground {
+    background-color: #ED1B25;
+    color: #fff;
+    text-decoration: none  ;
+}
+
+.btn-default:hover {
+    background-color: #ED1B25;
+    border: none;
+    color: #fff;
+}
+
+.btn-default:focus {
+    text-decoration: none;
+}
+
+
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+
+.bg_image_hero {
+    width: 60%;
+    z-index: -1;
+}
+
+.hero_margin{
+    margin-top: 50px;
+}
+
+.lab_margin{
+    margin-top: 90px;
+}
+
+
+.lab_section{
+    margin-top: 120px;
+}
+
+.product_section{
+    margin-top: 50px;
+}
+
+
+
+.hero_left_red {
+    top: -150px;
+    left: -20px;
+}
+
+.product_card {
+    position: absolute;
+    background-color: #0D3F6A;
+    opacity: 0.8;
+    height: 60px;
+    width: 93.5%;
+    bottom: 0;
+    border-radius: 10px;
+}
+
+
+.spoon {
+    position: absolute;
+    top: -350px;
+    left: 750px;
+    width: 39%;
+}
+
+
+.ourTeam {
+    margin-top: 150px;
+}
+
+
+.slider_background{
+    position: absolute;
+    z-index: -1;
+}
+
+.slider_background_right{
+    position: absolute;
+    right: 0;
+}
+
+.carousel_positions{
+  position: relative;
+  top: 80px;
+}
+
+.our_team_sub_head{
+    position: relative;
+    top: 100px;
+   
+    font-size: 24px;
+
+}
+
+.our_team{
+    position: relative;
+    top:80px;
+}
+
+.bg-active{
+    width: 300px;
+    height: 300px;
+    background-color: white;
+    position: absolute;
+    left: 37%;
+    z-index: -1;
+}
+
+.border-team{
+   border-bottom:solid #ED1B25 2px;
+
+}
+
+
+.blockquote_section{
+   position: relative;
+   top: 200px;
+}
+
+.blockquote_heading{
+    position: relative;
+    top: 180px;
+}
+
+#red-border{
+    border-bottom: #ED1B25;
+    border-width: 5px;
+}
+
+.parrow_left_position {
+    position: absolute;
+    right: 75px;
+    top: -80px;
+    cursor: pointer;
+}
+
+.parrow_right_position {
+    position: absolute;
+    right: 75px;
+    top: -20px;
+    cursor: pointer;
+}
+
+
+@media(max-width:668px){
+   ul{
+    background-color: #0D3F6A;
+   }
+   .nav-link{
+    color: #fff;
+    text-align: center;
+   }
+
+   .nav-link:hover{
+    color: dodgerblue;
+   }
+
+
+   .navbar-nav .nav-link.active, .navbar-nav .show > .nav-link {
+    color: dodgerblue;
+  }
+
+.spoon{
+    display: none;
+}
+
+.bg-active{
+    left: 15%;
+}
+
+.mobile_white{
+    color: white;
+}
+
+/* //responsive */
+
+#hero h1,p{
+    text-align: center;
+}
+
+.red-more{
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+}
+
+.hero_image_1{
+    width: 60%;
+    position: relative;
+    top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+}
+
+
+.hero_image_2{
+    width: 40%;
+    position: relative;
+    top: 50px;
+    right: 50px;
+    margin-left: 0;
+    margin-right: 0;
+    display: flex;
+}
+
+.para_mobile-1{
+  position: relative;
+  top: 50px;
+  right: 40px;
+  margin-left: 0;
+  margin-right: 0;
+
+}
+
+.hero_text_3{
+    text-align: center;
+   margin-left: auto;
+   margin-right: 50px;
+}
+
+.mobile_card{
+    margin-top: 25px;
+}
+
+.our_team_sub_head {
+    padding-left: 25px;
+    padding-right: 25px;
+    font-size: 18px;
+}
+
+.parrow_right_position{
+    display: none;
+}
+
+.parrow_left_position {
+    display: none;
+}
+
+.blockquote_section{
+    top: 100px;
+    margin-bottom: 150px;
+}
+
+.blockquote_heading {
+    top: 80px;
+}
+    
+} 
+
+
+
+
